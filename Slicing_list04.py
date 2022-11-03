@@ -8,3 +8,4 @@ def main(list1):
     """
     return list1[0:3]
 print(main([1,2,'a',4,45]))
+
