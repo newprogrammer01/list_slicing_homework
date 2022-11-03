@@ -9,8 +9,10 @@ def main(list1,n):
     """
     if n<len(list1) and n>0:
         return list1[-1::-n]
-   
+    if n<len(list1) and n<0:
+        return list1[-1::n]
  
-print(main([1,2,3,4,5,6,'a','w',3],2))
+ 
+print(main([1,2,3,4,5,6,'a','w',3],-1))
 
 
