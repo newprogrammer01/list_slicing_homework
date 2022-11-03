@@ -6,5 +6,7 @@ def main(list1,n):
         n(int): parameter
     Returns:
         list: return answer.
-    """
-    return
+    """ 
+    if n<len(list1):
+     return list1[-1:n:-1]
+print(main([1,2,3,4,5,6,7,8,9],4))
